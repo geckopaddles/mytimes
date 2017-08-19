@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  width=100%
+}
+
+header.logo {
+  display: flex;
+}
+
+header nav {
+  display: block;
+  padding-right: 40px;
+}
+
+a {
+  color: black;
+}
