@@ -38,8 +38,14 @@ div {
   border: 1px solid black;
 }
 
-.column {
+.content {
+  display: flex;
+  justify-content: space-between;
+}
 
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .column.large {
