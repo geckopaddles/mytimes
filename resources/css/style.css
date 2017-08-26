@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid black
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -18,7 +18,7 @@ header {
 
 .logo span {
   color: MediumAquamarine;
-  padding: 10px 20px;
+  padding: 20px 10px;
 }
 
 header span {
@@ -28,9 +28,28 @@ header span {
 
 header nav {
   display: inline-block;
-
 }
 
 a {
   color: black;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
